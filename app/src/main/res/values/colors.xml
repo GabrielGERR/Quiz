@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tela_fragment">#F8F8F8</color>
+    <color name="primeira_cor">#3498db</color>
+    <color name="primeira_cor_variante">#3498db</color>
+    <color name="segunda_cor">#e74c3c</color>
+    <color name="segunda_cor_variante">#ec6252</color>
+</resources>

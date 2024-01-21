@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela.MainActivity">
+
+    <Button
+        android:id="@+id/btnLP"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="LINGUA PORTUGUESA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnMatematica"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="MATEMÁTICA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLP" />
+
+
+    <Button
+        android:id="@+id/btnGeografia"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="GEOGRAFIA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMatematica" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="282dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_quiz" />
+
+    <Button
+        android:id="@+id/btnIngles"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="INGLÊS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGeografia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
